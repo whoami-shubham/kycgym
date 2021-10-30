@@ -2817,3 +2817,8 @@ body{
     font-size: 24px !important;
   }
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto !important;
+      touch-action: auto !important;
+}
