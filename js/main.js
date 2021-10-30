@@ -215,3 +215,11 @@ function onNavClick(event){
 function ctaButton(){
   window.location = "https://api.whatsapp.com/send/?phone=+917079606060";
 }
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarsExample')
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { 
+      const bsCollapse = new bootstrap.Collapse(menuToggle)
+      bsCollapse.toggle() 
+    })
+})

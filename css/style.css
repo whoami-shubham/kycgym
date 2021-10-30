@@ -2805,3 +2805,7 @@ header{
 .fa-instagram{
   color:#f46f30;
 }
+body{
+  height: 100%;
+  overflow-y:scroll ;
+}
