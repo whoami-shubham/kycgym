@@ -2644,9 +2644,8 @@ responsive
 
 #gallary {
   max-width: 800px;
-  margin: 16px;
   align-items: center;
-  margin: 16px auto;
+  margin: 24px auto;
 }
 .note {
   padding: 16px;
@@ -2808,4 +2807,13 @@ header{
 body{
   height: 100%;
   overflow-y:scroll ;
+}
+@media (max-width:600px){
+  .banner-btn{
+    padding: 12px 10px !important;
+    font-size: 10px;
+  }
+  .home-slider h1{
+    font-size: 24px !important;
+  }
 }
