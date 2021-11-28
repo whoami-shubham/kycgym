@@ -2638,7 +2638,7 @@ responsive
 }
 @media (max-width: 450px) {
   .carousel-inner img {
-    max-height: 240px !important;
+    max-height: 400px !important;
   }
 }
 
@@ -2660,7 +2660,8 @@ responsive
   text-align: left;
 }
 .carousel-inner img {
-  max-height: 533px;
+  max-height: 700px;
+  width: 320px !important;
 }
 .card-body li {
   font-size: 13px !important;
@@ -2821,4 +2822,19 @@ body{
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
   -ms-touch-action: auto !important;
       touch-action: auto !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background: black;
+}
+.carousel-control-next-icon::before{
+  content: ">";
+}
+.carousel-control-prev-icon::after{
+  content: "<";
 }
