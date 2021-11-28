@@ -2660,7 +2660,7 @@ responsive
   text-align: left;
 }
 .carousel-inner img {
-  max-height: 700px;
+  max-height: 426px;
   width: 320px !important;
 }
 .card-body li {
